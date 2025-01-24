@@ -1,25 +1,50 @@
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between; /* Ensures extreme left and right alignment */
+  align-items: center; /* Centers items vertically within the header */
+  
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  
+  
+ 
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display:flex;
+  
+  gap: 10px;
+  padding:8px;
+ 
+
+
+
 }
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  
   /* this removes the line under the links */
   text-decoration: none;
+  padding:0;
+  margin:0;
+  
+}
+.left-links{ 
+  display: flex;
+}
+  
+.right-links{
+  display: flex;
 }
